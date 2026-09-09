@@ -1,19 +1,12 @@
-# Vishal — GitHub Pages Portfolio
+# Vishal Kumar — Premium GitHub Portfolio
 
-A premium static portfolio website built with plain HTML, CSS and JavaScript, designed for GitHub Pages.
+Static HTML/CSS/JS portfolio designed for GitHub Pages.
 
-## Files
-- `index.html` — complete portfolio content
-- `style.css` — responsive premium dark UI
-- `script.js` — mobile menu and scroll animations
-
-## Deploy on GitHub Pages
+## Publish
 1. Create a GitHub repository, e.g. `Vishal-Portfolio`.
-2. Upload these three files to the repository root.
-3. Go to **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Select `main` and `/ (root)`, then Save.
-6. Open the generated GitHub Pages URL.
+2. Upload `index.html`, `style.css`, and `script.js` from this folder to the repository root.
+3. GitHub → Settings → Pages → Deploy from branch → `main` → `/root`.
+4. Open the generated Pages URL.
 
 ## Important
-The contact/social links currently use the links present in the supplied CV. Replace them with Vishal's actual profiles if those URLs are different.
+The CV contact links currently use the URLs supplied in the CV. If Vishal has separate GitHub/LinkedIn accounts, replace those two links in `index.html`.
