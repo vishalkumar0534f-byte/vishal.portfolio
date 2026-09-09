@@ -52,3 +52,25 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;background:lin
 .scroll-cue{color:#9ea8c7!important}
 footer{border-top-color:rgba(124,92,255,.18)!important}
 @media(max-width:600px){.hero h1{font-size:65px!important;line-height:.9!important}.navbar{background:rgba(8,10,25,.9)!important}}
+
+/* ===== VISHAL KUMAR HERO ALIGNMENT + COLOR BOOST ===== */
+.hero-copy{position:relative;z-index:2}
+.name-lock{display:flex!important;align-items:baseline!important;justify-content:flex-start!important;gap:.28em!important;white-space:nowrap!important;letter-spacing:-5px!important}
+.name-lock .name-first,.name-lock .name-last{display:inline-block!important}
+.name-lock .name-first{background:linear-gradient(90deg,#ff4ecd 0%,#ff7a59 42%,#ffc857 100%);-webkit-background-clip:text;background-clip:text;color:transparent!important}
+.name-lock .name-last{background:linear-gradient(90deg,#ffc857 0%,#55f0a7 45%,#20d9ff 100%);-webkit-background-clip:text;background-clip:text;color:transparent!important}
+.hero:after{content:"";position:absolute;inset:auto 4% 3% 4%;height:220px;background:radial-gradient(ellipse at center,rgba(255,78,205,.13),transparent 65%);filter:blur(25px);pointer-events:none}
+.hero-art:before{content:"";position:absolute;width:430px;height:430px;border-radius:50%;border:1px solid rgba(255,78,205,.24);box-shadow:0 0 90px rgba(124,92,255,.16),inset 0 0 70px rgba(32,217,255,.08);animation:spinSlow 22s linear infinite}
+.orb{background:radial-gradient(circle at 35% 30%,#ff4ecd 0,rgba(124,92,255,.45) 27%,rgba(32,217,255,.28) 52%,rgba(85,240,167,.12) 64%,transparent 73%)!important;box-shadow:0 0 100px rgba(124,92,255,.4),0 0 160px rgba(32,217,255,.12)!important}
+.brand{font-size:27px!important}
+.brand span:first-child{color:#ff4ecd!important}
+.brand span:last-child{color:#20d9ff!important}
+.nav-links a:hover{color:#20d9ff!important}
+.btn.primary{background:linear-gradient(120deg,#ff4ecd,#7c5cff,#20d9ff)!important}
+.btn.ghost:hover{background:linear-gradient(120deg,rgba(255,78,205,.10),rgba(32,217,255,.10));border-color:rgba(255,78,205,.5)!important}
+.code-card:nth-of-type(1){border-color:rgba(255,78,205,.3)!important}
+.code-card:nth-of-type(2){border-color:rgba(32,217,255,.3)!important}
+.code-card:nth-of-type(3){border-color:rgba(85,240,167,.3)!important}
+@keyframes spinSlow{to{transform:rotate(360deg)}}
+@media(max-width:900px){.hero{display:flex!important;flex-direction:column!important;text-align:center!important;justify-content:center!important}.hero-copy{width:100%;text-align:center}.hero h1{justify-content:center!important}.hero-text{margin-left:auto!important;margin-right:auto!important}.hero-actions,.social-row{justify-content:center!important}.hero-art{width:100%;margin-top:15px}.name-lock{letter-spacing:-3px!important}}
+@media(max-width:600px){.hero{padding-top:135px!important}.hero h1.name-lock{font-size:clamp(46px,14vw,66px)!important;gap:.22em!important;letter-spacing:-2.5px!important;justify-content:center!important}.hero-art:before{width:300px;height:300px}.orb{width:235px;height:235px}.hero-v{font-size:180px}.hero-art{height:330px!important}.terminal{width:min(300px,92vw)!important;right:50%!important;transform:translateX(50%) rotate(-2deg)!important}.hero:after{height:160px}}
